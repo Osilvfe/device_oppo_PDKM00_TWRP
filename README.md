@@ -1,2 +1,2 @@
-# android_device_oppo_PECM30
-For building TWRP for oppo A53 5G
+# android_device_oppo_PDKM30
+For building TWRP for oppo A92s
