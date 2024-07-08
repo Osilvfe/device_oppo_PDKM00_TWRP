@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_PECM30.mk
+    $(LOCAL_DIR)/twrp_PDKM00.mk

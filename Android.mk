@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),PECM30)
+ifeq ($(TARGET_DEVICE),PDKM00)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
