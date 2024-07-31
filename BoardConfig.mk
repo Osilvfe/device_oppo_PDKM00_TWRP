@@ -107,7 +107,7 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 BOARD_SUPER_PARTITION_SIZE := 8589934592
 BOARD_SUPER_PARTITION_GROUPS := main
 BOARD_MAIN_SIZE := 8589934592
-BOARD_MAIN_PARTITION_LIST := system vendor
+BOARD_MAIN_PARTITION_LIST := system vendor odm product
 
 TARGET_COPY_OUT_VENDOR := vendor
 
@@ -127,9 +127,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-#TW_INCLUDE_CRYPTO := true
-#TW_INCLUDE_CRYPTO_FBE := true
-#TW_INCLUDE_FBE_METADATA_DECRYPT := true
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_FBE_METADATA_DECRYPT := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
@@ -144,7 +144,7 @@ TW_H_OFFSET := -115
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_APEX := true
 TW_OZIP_DECRYPT_KEY := 1C4C1EA3A12531AE491B21BB31613C11
-TW_INCLUDE_LOGICAL := common_preload oppo_engineering oppo_product vension.19131 version.19132
+TW_INCLUDE_LOGICAL := my_bigball my_carrier my_company my_engineering my_heytap my_manifest my_preload my_product my_region my_stock my_version
 
 TW_DEVICE_VERSION := Osilvfe
 
